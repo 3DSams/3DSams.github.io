@@ -1,0 +1,68 @@
+body {
+    background: rgb(241,253,255);
+    font-family: Raleway, Century Gothic, Arial;
+    text-align: center;
+    justify-items: center;
+}
+
+.centerall {
+    display: block;
+    text-align:center;
+}
+.Warp {
+    background-color:  rgb(30,34,78);
+    color: rgb(246, 254, 255);
+    border: none;
+    border-radius: 4px;
+    padding:8px;
+    cursor: pointer;
+    margin: 4px;
+    font-weight:bold;
+    transition: opacity 0.15s;
+  }
+  .Warp:hover {
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(30,34,78, 0.5);
+  }
+  .Warp:active {
+    opacity: 0.5;
+  }
+  .Home {
+    background-color:  rgb(30,34,78);
+    color: rgb(246, 254, 255);
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 4px;
+    font-weight:bold;
+    transition: opacity 0.15s;
+  }
+
+  .Home:hover {
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(30,34,78, 0.5);
+  }
+  .Home:active {
+    opacity: 0.5;
+  }
+  .HomeHuge {
+    background-color:  rgb(30,34,78);
+    color: rgb(246, 254, 255);
+    border: none;
+    border-radius: 6px;
+    padding: 20px;
+    cursor: pointer;
+    margin: 4px;
+    font-weight:bold;
+    transition: opacity 0.15s;
+    font-size: xx-large;
+  }
+  
+  .HomeHuge:hover {
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(30,34,78, 0.5);
+  }
+  .HomeHuge:active {
+    opacity: 0.5;
+  }

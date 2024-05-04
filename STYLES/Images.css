@@ -1,0 +1,57 @@
+.vganimanga {
+    display: block;
+    display: flex;
+    width:40%;
+    border-radius: 8px;
+    object-fit:contain;
+    margin:auto;
+
+}
+.soupfruit {
+    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  width: 45%;
+  border-radius: 8px;
+    object-fit:contain;
+    margin:auto;
+}
+.ltg404 {
+    display:block;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    border-radius: 8px;
+    object-fit:contain;
+}
+
+@media only screen and (max-width:480px){
+    .vganimanga {
+    border-radius:8px;
+        width:100%;
+        object-fit:contain;
+        display: flex;
+    justify-content: center;
+    }
+}
+@media only screen and (max-width:480px){
+    .soupfruit {
+    border-radius:8px;
+        width:100%;
+        object-fit:contain;
+        display: flex;
+    justify-content: center;
+    }
+}
+@media only screen and (max-width:480px){
+    .ltg404 {
+    border-radius:8px;
+        width:100%;
+        object-fit:contain;
+        display: flex;
+    justify-content: center;
+    }
+}
