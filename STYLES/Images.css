@@ -1,12 +1,29 @@
 .vganimanga {
     display: block;
     display: flex;
-    width:40%;
+    width:20%;
     border-radius: 8px;
     object-fit:contain;
     margin:auto;
 
 }
+.subtitle2 {
+    margin:auto;
+
+}
+.vganimangant {
+    display: block;
+    display: flex;
+    width:60%;
+    border-radius: 0px;
+    object-fit:contain;
+    margin:auto;
+
+}
+#button {
+    width:20%;
+}
+
 .soupfruit {
     display: flex;
     display: block;
@@ -31,7 +48,7 @@
 @media only screen and (max-width:480px){
     .vganimanga {
     border-radius:8px;
-        width:100%;
+        width:60%;
         object-fit:contain;
         display: flex;
     justify-content: center;
